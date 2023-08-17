@@ -1,0 +1,7 @@
+// created a function for using display flex and the arguement that is passed is for mentioning the flex direction according to requirement
+
+@mixin flex-center($direction){
+    display: flex;
+    align-items: center;
+    flex-direction: $direction;
+}
