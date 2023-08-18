@@ -1,0 +1,31 @@
+uuid: cefa4038-0676-4cad-ad96-82d5e5cebd80
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_design
+    - node.type.blog_cards
+    - taxonomy.vocabulary.design
+    - taxonomy.vocabulary.design_2
+id: node.blog_cards.field_design
+field_name: field_design
+entity_type: node
+bundle: blog_cards
+label: DESIGN
+description: 'CHOOSE ANY DESIGN BETWEEN 1-3'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      design_2: design_2
+      design: design
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: design_2
+field_type: entity_reference

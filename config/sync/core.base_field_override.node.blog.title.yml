@@ -1,0 +1,18 @@
+uuid: 69a2d4d7-e549-4117-b569-7d04863614a6
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.blog
+id: node.blog.title
+field_name: title
+entity_type: node
+bundle: blog
+label: 'Title of the Blog'
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

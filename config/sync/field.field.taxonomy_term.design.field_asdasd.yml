@@ -1,0 +1,24 @@
+uuid: 6e4c18c3-0f0c-4bad-94b7-974e06877b73
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.taxonomy_term.field_asdasd
+    - filter.format.full_html
+    - taxonomy.vocabulary.design
+  module:
+    - text
+id: taxonomy_term.design.field_asdasd
+field_name: field_asdasd
+entity_type: taxonomy_term
+bundle: design
+label: asdasd
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats:
+    - full_html
+field_type: text

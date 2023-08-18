@@ -1,0 +1,24 @@
+uuid: 7e2556dd-3e63-4594-bd2c-5818d22cbdf7
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_description
+    - filter.format.full_html
+    - node.type.blog_cards
+  module:
+    - text
+id: node.blog_cards.field_description
+field_name: field_description
+entity_type: node
+bundle: blog_cards
+label: Description
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats:
+    - full_html
+field_type: text_long

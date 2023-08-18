@@ -1,0 +1,21 @@
+uuid: 90996eb0-84d5-4ca2-810d-3a488ac603ee
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.taxonomy_term.design.field_asdasd
+    - taxonomy.vocabulary.design
+  module:
+    - layout_builder
+third_party_settings:
+  layout_builder:
+    enabled: true
+    allow_custom: true
+id: taxonomy_term.design.default
+targetEntityType: taxonomy_term
+bundle: design
+mode: default
+content: {  }
+hidden:
+  description: true
+  field_asdasd: true

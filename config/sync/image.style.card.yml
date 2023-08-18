@@ -1,0 +1,14 @@
+uuid: c8824fb1-3bad-46c4-ac51-376d0a1e3b9f
+langcode: en
+status: true
+dependencies: {  }
+name: card
+label: CARD
+effects:
+  f9afe8ec-c246-45e3-9365-431511a8564c:
+    uuid: f9afe8ec-c246-45e3-9365-431511a8564c
+    id: image_resize
+    weight: 1
+    data:
+      width: 250
+      height: 250

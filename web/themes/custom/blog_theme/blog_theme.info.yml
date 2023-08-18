@@ -1,0 +1,13 @@
+name: Blog Theme
+description: 'creating a sub theme and the base theme is bootstrap5'
+type: theme
+core_version_requirement: ^10
+base theme: bootstrap5
+
+libraries:
+    - blog_theme/fontawesome
+
+regions:
+  navigation: 'Navigation'
+  maincontent: 'Main Content'
+  footer: 'Footer'

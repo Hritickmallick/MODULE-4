@@ -1,0 +1,33 @@
+slider:
+ version: VERSION
+ css:
+  theme:
+    css/index.css: {}
+
+blog:
+ version: VERSION
+ css:
+  theme:
+    css/blog.css: {}
+
+slick:
+ version: VERSION
+ css:
+  theme:
+    //cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css: {type: external}
+    //cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.css: {type: external}
+
+ js:
+  js/index.js: {}
+  //cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js: {type: external}
+
+ dependencies:
+    - core/once
+    - core/jquery
+    - core/drupalSettings
+
+fontawesome:
+ version: VERSION
+ css:
+  theme:
+    //cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css: {type: external}

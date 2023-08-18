@@ -1,0 +1,26 @@
+uuid: 63aa18ef-7c03-4661-92f1-750c08203ac0
+langcode: en
+status: false
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.blog_cards.field_card_image
+    - field.field.node.blog_cards.field_description
+    - field.field.node.blog_cards.field_design
+    - node.type.blog_cards
+  module:
+    - user
+id: node.blog_cards.teaser
+targetEntityType: node
+bundle: blog_cards
+mode: teaser
+content:
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  field_card_image: true
+  field_description: true
+  field_design: true

@@ -1,0 +1,43 @@
+// importing all the partial files
+
+@use '../partial/importers' as * ;
+
+.banner-img{
+    width: 100%;
+}
+
+.banner-slider-content{
+    position: relative;
+}
+
+.views-field-title{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: $font-size-30;
+    color: $text;                       
+}
+
+.views-field-nothing{
+    position: absolute;
+    top:55%;
+    left:50%;
+    font-size: $font-size-20;
+    color: $text;
+}
+
+.prev-arrow{                                                                                    
+   position: absolute;
+   display: none;
+
+}
+
+.next-arrow{
+    position: absolute;
+    top: 0px;
+    left: 50%;
+    padding: 10px 25px;
+    background-color: #ff00005c;
+    color: #fff;
+    font-size: 29px;
+}
