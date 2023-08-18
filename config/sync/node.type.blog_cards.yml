@@ -1,0 +1,17 @@
+uuid: 840a2575-b524-47ad-9ff8-435d9f7f8f80
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: 'Blog Cards'
+type: blog_cards
+description: ''
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: false

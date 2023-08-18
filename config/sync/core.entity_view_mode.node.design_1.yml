@@ -1,0 +1,10 @@
+uuid: ee0b73ad-94ed-4ae3-8942-1ba8bc015ccb
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.design_1
+label: 'DESIGN 1'
+targetEntityType: node
+cache: true

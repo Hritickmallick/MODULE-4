@@ -1,0 +1,103 @@
+@font-face {
+  font-family: "Roboto";
+  src: url("../../Roboto/Roboto-Bold.ttf") format("truetype");
+  font-weight: 900;
+}
+@font-face {
+  font-family: "Roboto";
+  src: url("../../Roboto/Roboto-Medium.ttf") format("truetype");
+  font-weight: 600;
+}
+@font-face {
+  font-family: "Roboto";
+  src: url("../../Roboto/Roboto-Black.ttf") format("truetype");
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Roboto";
+  src: url("../../Roboto/Roboto-Regular.ttf") format("truetype");
+  font-weight: 300;
+}
+@font-face {
+  font-family: "Roboto";
+  src: url("../../Roboto/Roboto-Thin.ttf") format("truetype");
+  font-weight: 200;
+}
+.design-3 {
+  display: inline-block;
+  padding: 20px 35px;
+  background-color: #eeeeee;
+  margin: 40px;
+}
+.design-3 .design-card-1 {
+  display: flex;
+  flex-direction: column-reverse;
+  padding: 40px 25px;
+  background: #fff;
+  box-shadow: 2px 5px 6px 5px rgba(0, 0, 0, 0.1490196078);
+}
+.design-3 .design-card-1 .none {
+  display: none;
+}
+.design-3 .design-card-1 .node__content .field--name-field-card-image {
+  position: relative;
+  z-index: 1;
+}
+.design-3 .design-card-1 .node__content .field--name-field-card-image::before {
+  content: " ";
+  position: absolute;
+  left: 0;
+  background-image: linear-gradient(#ff3399, #ff0020);
+  opacity: 0.5;
+  width: 50%;
+  height: 100%;
+}
+
+.design-2 {
+  display: inline-block;
+  border-radius: 10%;
+  background-color: #f4ebeb;
+  padding: 50px 11px;
+  margin: 40px;
+}
+.design-2 .design-card-2 {
+  display: flex;
+  flex-direction: column-reverse;
+  padding: 50px 5px;
+}
+.design-2 .design-card-2 h2 {
+  padding: 40px;
+}
+.design-2 .design-card-2 .node__content .field--name-field-description {
+  display: none;
+}
+.design-2 .design-card-2 .node__content .field--name-field-card-image {
+  text-align: center;
+}
+.design-2 .design-card-2 .node__content .field--name-field-card-image img {
+  border-radius: 50%;
+}
+
+.design-1 {
+  display: inline-block;
+  padding: 50px 20px;
+  background: rgba(255, 209, 213, 0.431372549);
+  margin: 40px;
+}
+.design-1 article {
+  display: flex;
+  flex-direction: column-reverse;
+  position: relative;
+  padding-bottom: 50px;
+  background: #fff;
+  box-shadow: 2px 5px 6px 5px rgba(141, 139, 139, 0.4039215686);
+}
+.design-1 article h2 {
+  text-align: center;
+  padding-top: 30px;
+}
+.design-1 article .node__content .field--name-field-description {
+  position: absolute;
+  width: 80%;
+  left: 15%;
+}/*# sourceMappingURL=blog.css.map */

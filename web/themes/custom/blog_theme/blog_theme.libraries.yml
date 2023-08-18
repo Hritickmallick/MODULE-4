@@ -4,6 +4,12 @@ slider:
   theme:
     css/index.css: {}
 
+blog:
+ version: VERSION
+ css:
+  theme:
+    css/blog.css: {}
+
 slick:
  version: VERSION
  css:
